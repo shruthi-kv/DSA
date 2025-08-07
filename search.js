@@ -3,8 +3,8 @@
 const arr = [1, 7, 5, 9, 3, 5, 55, 6, 7, 88, 9, 33, 5];
 
 function SearchElement(n) {
+    
   for (let i = 0; i < arr.length; i++) {
-
     if (arr[i] === n) {
       return i;
     }
