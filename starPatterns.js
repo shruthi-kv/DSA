@@ -79,3 +79,61 @@ for(let i=1;i<=n;i++){
     console.log(row)
 }
 
+let rows =5
+for (let i = rows; i >= 1; i--) {
+    let line = "";
+
+    // Print spaces
+    for (let j = 1; j <= rows - i; j++) {
+      line += " ";
+    }
+
+    // Print stars
+    for (let k = 1; k <= 2 * i - 1; k++) {
+      line += "*";
+    }
+
+    console.log(line);
+  }
+
+
+console.log("-----------------------------------")
+console.log("-----------------------------------");
+
+  function printDiamond(rows) {
+  // Top half (including the middle line)
+  for (let i = 1; i <= rows; i++) {
+    let line = "";
+
+    // Print spaces
+    for (let j = 1; j <= rows - i; j++) {
+      line += " ";
+    }
+
+    // Print stars
+    for (let k = 1; k <= 2 * i - 1; k++) {
+      line += "*";
+    }
+
+    console.log(line);
+  }
+
+  // Bottom half (excluding the middle line to avoid duplication)
+  for (let i = rows - 1; i >= 1; i--) {
+    let line = "";
+
+    // Print spaces
+    for (let j = 1; j <= rows - i; j++) {
+      line += " ";
+    }
+
+    // Print stars
+    for (let k = 1; k <= 2 * i - 1; k++) {
+      line += "*";
+    }
+
+    console.log(line);
+  }
+}
+
+printDiamond(5);
