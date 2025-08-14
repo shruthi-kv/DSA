@@ -1,5 +1,5 @@
 
-let arr = [0,0,2,3];
+let arr = [2,2,3,3,3,8];
 
 function RemoveDuplicates(arr){
 
@@ -11,10 +11,15 @@ function RemoveDuplicates(arr){
             x=x+1;
             arr[x] = arr[i]
         }
+        console.log(arr)
+
     }
-    console.log(arr)
+    
+
+
     return x+1;
 
 }
 
 console.log(RemoveDuplicates(arr))
+
