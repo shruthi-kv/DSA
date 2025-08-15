@@ -45,7 +45,9 @@ function addTwoNumbers(l1, l2) {
         arr.push(res%10);
 
         borrow = Math.floor(res/10);
+        console.log("borrow------>", borrow)
     }
+    
 
     if(borrow){
         arr.push(borrow)
@@ -55,3 +57,11 @@ function addTwoNumbers(l1, l2) {
 };
 
 console.log(addTwoNumbers([2,4,3],[5,6,4,4]))
+
+let test = [5,4,4,5];
+let sample = 'Hello'
+console.log(test[0])
+console.log(sample[0])
+console.log(test.length)
+
+console.log(sample.length)
