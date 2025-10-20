@@ -26,42 +26,42 @@ console.log("---------")
 let a=1
 
 
-console.log(a%10, Math.floor(a/10))
+// console.log(a%10, Math.floor(a/10))
 
-console.log("---------")
-function addTwoNumbers(l1, l2) {
-    let arr = [];
-    let borrow = 0;
-    console.log(l1)
-    let maxLength = Math.max(l1.length, l2.length)
-    for(let i=0; i<maxLength;i++){
-        let a = l1[i] || 0;
-        let b =l2[i] || 0;
+// console.log("---------")
+// function addTwoNumbers(l1, l2) {
+//     let arr = [];
+//     let borrow = 0;
+//     console.log(l1)
+//     let maxLength = Math.max(l1.length, l2.length)
+//     for(let i=0; i<maxLength;i++){
+//         let a = l1[i] || 0;
+//         let b =l2[i] || 0;
 
         
-        let res = a+b + borrow;
+//         let res = a+b + borrow;
     
    
-        arr.push(res%10);
+//         arr.push(res%10);
 
-        borrow = Math.floor(res/10);
-        console.log("borrow------>", borrow)
-    }
+//         borrow = Math.floor(res/10);
+//         console.log("borrow------>", borrow)
+//     }
     
 
-    if(borrow){
-        arr.push(borrow)
-    }
-    return arr;
+//     if(borrow){
+//         arr.push(borrow)
+//     }
+//     return arr;
     
-};
+// };
 
-console.log(addTwoNumbers([2,4,3],[5,6,4,4]))
+// console.log(addTwoNumbers([2,4,3],[5,6,4,4]))
 
-let test = [5,4,4,5];
-let sample = 'Hello'
-console.log(test[0])
-console.log(sample[0])
-console.log(test.length)
+// let test = [5,4,4,5];
+// let sample = 'Hello'
+// console.log(test[0])
+// console.log(sample[0])
+// console.log(test.length)
 
-console.log(sample.length)
+// console.log(sample.length)
