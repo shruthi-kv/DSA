@@ -1,16 +1,16 @@
-let arr = [0,1,1,1,0,0,0,0,1,1,1,1,0];
+let arr = [12,0,9];
 
 function moveZeros(arr){
     let x = 0;
 
     for(let i=0;i<arr.length;i++){
-        if(arr[i] !=0){
+        if(arr[i] !== 0){
             arr[x] = arr[i];
             x = x+1;
         }
     }
 
-    for(let i = x+1;i<arr.length;i++){
+    for(let i = x;i<arr.length;i++){
         arr[i] = 0;
     }
 
