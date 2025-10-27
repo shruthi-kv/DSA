@@ -10,3 +10,5 @@ function xor(arr){
 }
 
 console.log(xor(arr))
+
+export default xor;
