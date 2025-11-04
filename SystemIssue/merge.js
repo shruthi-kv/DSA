@@ -1,5 +1,5 @@
-let arr1 = [1,3,5,7];
-let arr2 = [2,4,8,9];
+let arr1 = [1,2,3,5,4,7];
+let arr2 = [1,2,2,4,8,9,10];
 
 function mergeSort(arr1,arr2){
     let res =[];
