@@ -1,4 +1,4 @@
-let str = "  ";
+let str = "The sky is blue3 . ";
 
 function countLastWord(str){
     let n = str.length-1;
