@@ -8,10 +8,10 @@ function findIndex(arr, x) {
     // if(arr[i].includes(x)){
     //     res.push(i)
     // }
-    let str = arr[i].split("");
+    // let str = arr[i].split("");
 
-    for (let j = 0; j < str.length; j++) {
-      if (str[j] === x) {
+    for (let j = 0; j < arr[i].length; j++) {
+      if (arr[i][j] === x) { // arr[0][2]
         res.push(i);
       }
       break;
