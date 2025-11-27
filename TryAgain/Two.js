@@ -1,5 +1,5 @@
 // let str = "abcdefg";
-let str = "a";
+let str = "abcd";
 
 function reverseStringTwo(str) {
     let a = str.split('')
