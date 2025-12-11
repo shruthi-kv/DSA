@@ -16,7 +16,7 @@ function isAnagram(str1,str2){
         if(!obj[str2[i]] || obj[str2[i]]<0){
             return false;
         }else{
-            obj[str1[i]]--;
+            obj[str2[i]]--;
         }
     }
 
